@@ -57,10 +57,6 @@ header {
   text-underline-offset: 4px;
 }
 
-.header__adress-underline {
-  text-underline-offset: 4px;
-}
-
 .cover {
   display: flex;
   flex-direction: column;
@@ -86,7 +82,6 @@ header {
 .cover__title {
   font-family: "Raleway", sans-serif;
   color: rgb(255, 255, 255);
-  font-family: Raleway;
   font-size: 100px;
   font-weight: 700;
   line-height: 115%;
