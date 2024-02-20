@@ -1,6 +1,6 @@
 /*HEADER*/
 
-header {
+.header {
   display: flex;
   align-items: center;
   padding: 91px 52px 91px 52px;
@@ -45,22 +45,22 @@ header {
   list-style: none;
 }
 
-.adress {
+.address {
   color: rgb(0, 0, 0);
-  font-family: Raleway;
+  font-family: "Raleway", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
   font-style: normal;
 }
 
-.header__adress {
+.header__address {
   display: flex;
   flex-direction: column;
   padding-top: 5px;
 }
 
-.header__adress-underline {
+.address__underline {
   text-underline-offset: 4px;
 }
 
@@ -104,7 +104,7 @@ header {
   display: block;
 }
 
-.aligned-text-left {
+.aligned-text_left {
   text-align: left;
   padding-top: 168px;
   padding-left: 51px;
@@ -115,7 +115,7 @@ header {
   padding-top: 15px;
 }
 
-.aligned-text-right {
+.aligned-text_right {
   text-align: right;
   padding-right: 20px;
   padding-top: 5px;
@@ -139,7 +139,7 @@ header {
 .cover__description-text {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway", "Arial", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
@@ -156,7 +156,7 @@ header {
   box-sizing: border-box;
   border: 1px solid rgb(255, 255, 255);
   background: none;
-  font-family: Raleway;
+  font-family: "Raleway", "Arial", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: 500;
@@ -164,6 +164,7 @@ header {
   text-transform: uppercase;
   padding: 10px 50px 12px 30px;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 /*LOTS*/
@@ -334,7 +335,7 @@ header {
   margin-bottom: 91px;
 }
 
-.footer__adress {
+.footer__address {
   display: flex;
   flex-direction: column;
   padding-left: 50px;
